@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+}
+div {
+    height:inherit;
+}
+#topbar {
+    background-color: lightgray;
+    width: auto;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+#google {
+    height: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-left: 20px;
+}
+#profilepic img {
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: white;
+}
+#profilepic {
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    height: inherit;
+}
