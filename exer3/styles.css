@@ -47,6 +47,7 @@ div {
 }
 #search input {
     margin-right: 10px;
+    margin-left: 10px;
     border-radius: 20px;
     width: 70%;
     padding-left: 16px;
