@@ -10,6 +10,7 @@ div {
     height: 60px;
     display: flex;
     justify-content: space-between;
+    
 }
 #google {
     height: auto;
@@ -28,4 +29,101 @@ div {
     padding-top: 5px;
     padding-bottom: 5px;
     height: inherit;
+}
+#h1text {
+    margin-top: 100px;
+}
+#h1text h1 {
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+#search {
+    display: flex;
+    justify-content: center;
+    height:50px;
+    margin-top:50px;
+}
+#search input {
+    margin-right: 10px;
+    border-radius: 20px;
+    width: 70%;
+    padding-left: 16px;
+    font-size: 25px;
+    background-color: lightgray
+}
+#search button {
+    width: 10%;
+    font-size: 25px;
+    border-radius: 20px;
+    background-color: dodgerblue;
+    text-decoration: underline;
+}
+#search button:hover {
+    cursor: pointer;
+}
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    border-top: 1px solid black;
+    width: 100%;
+}
+footer p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#topright {
+    display: flex;
+    flex-direction: row;
+}
+.link {
+    margin-right: 30px;
+    margin-top: 20px;
+    background-color: rgb(53, 53, 227);
+    height: 20px;
+    width: 100px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.link a:link {
+    color: white;
+}
+.link a:visited {
+    color: white;
+}
+.bottomborder {
+    padding-bottom: 50px;
+    border-bottom: 1px solid black;
+}
+#searchresults {
+    display: flex;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+}
+.result {
+    background-color: lightgray;
+    height: auto;
+    padding-top: 16px;
+    padding-left: 10px;
+    padding-bottom: 16px;
+    padding-right: 10px;
+    margin-top: 20px;
+}
+.result h2 {
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.result p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
 }
