@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const fetchCatFact = async () => {
     // let use imagine the api calls are taking longer to respond because of more complex operationds done in backend
-    //   await delay(2000); // Delay for 2 seconds
+    await delay(2000); // Delay for 2 seconds
     return fetch(apiUrl).then((response) => {
       if (!response.ok) {
         throw new Error("Network response was not ok");
