@@ -15,14 +15,13 @@ function App() {
     <>
       <BrowserRouter>
         <Routes>
-          <Route index element={<Home loggedIn={loggedIn} />} />
-          <Route
-            path="login"
-            element={<Login loggedIn={loggedIn} setLoggedIn={setLoggedIn} />}
-          />
-          <Route path="pokemon">
-            <Route path="all" element={<AllPokemon />} />
-            <Route path=":pokemonId" element={<Pokemon />} />
+          <Route index element= {<Home loggedIn={loggedIn} />} />
+          <Route path = {'/login'} element= {<Login loggedIn={loggedIn} setLoggedIn={setLoggedIn}/>} />
+          <Route path = {'/pokemon'}>
+            <Route path = ":id" element= {<Pokemon type="electric"/>}>
+            </Route>
+            <Route path = "all" element= {<AllPokemon/>}>
+            </Route>
           </Route>
         </Routes>
       </BrowserRouter>
