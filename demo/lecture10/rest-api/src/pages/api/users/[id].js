@@ -5,9 +5,9 @@ export default function handler(req, res) {
         const {id} = req.query;
         const newUsers = user.filter((user) => user.id !== id);
         console.log(newUsers);
-        const deletedUser = users.filter((user => user.id === id));
+        const deletedUser = users.filter((user) => user.id === id);
         if (deletedUser.length === 0) {
-            res.staus(400).json({error: "Invalid user ID"});
+            res.status(400).json({error: "Invalid user ID"});
             return;
         }
         res.status(200).json(deletedUser);
